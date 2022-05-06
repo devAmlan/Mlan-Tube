@@ -1,0 +1,80 @@
+.all_videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.video {
+  width: 30rem;
+  height: 35rem;
+  cursor: pointer;
+  color: var(--primarycolor);
+  position: relative;
+  margin: 1rem;
+}
+.thumbnail {
+  width: 100%;
+  height: 21rem;
+}
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+}
+.video_time {
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  top: 51%;
+  font-size: 1.3rem;
+}
+.video_title {
+  font-size: 1.4rem;
+  width: 23rem;
+}
+.channel_profile_image {
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  border-radius: 50%;
+  margin: 1rem;
+}
+.video_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.more_btn {
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.list_box {
+  background-color: var(--secondarycolor);
+  position: absolute;
+  bottom: 1rem;
+  right: 3rem;
+  border-radius: 5px;
+  text-align: center;
+}
+.hide_list_box {
+  display: none;
+}
+.list_btns {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  font-size: 1.4rem;
+}
+.list_btns_icon {
+  margin-right: 1rem;
+  font-size: 1.8rem;
+}
+.video_channel_name {
+  font-size: 1.3rem;
+  margin: 1rem;
+  color:var(--white);
+}
